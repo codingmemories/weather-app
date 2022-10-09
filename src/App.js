@@ -25,7 +25,15 @@ export default function App() {
             rel="noopener noreferrer"
           >
             open-sourced on GitHub
-          </a>
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://clinquant-monstera-404a7f.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>{" "}
         </footer>
       </div>
     </div>
