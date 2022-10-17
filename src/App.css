@@ -70,6 +70,9 @@
   line-height: 1;
 }
 
+.App a {
+  color: #cbcbcb;
+}
 
 .App footer {
   font-size: 11px;
