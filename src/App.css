@@ -1,9 +1,79 @@
 .App {
-  max-width: 600px;
-  margin: 30px auto;
+  min-height: 100vh;
+  margin: auto;
+  padding: 30px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.App footer {
+.weather {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  max-width: 600px;
+  color: #fff;
+  border: 1px solid #a0a3a5;
+  border-radius: 5px;
+  background: rgba(110, 110, 110, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.weather form {
+  margin-bottom: 20px;
+  max-width: 34em;
+  padding-left: 1.5em;
+}
+
+.weather h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 30px;
+  margin: 20px 0 0 0;
+}
+
+.weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.weather li {
+  list-style-type: none;
   font-size: 14px;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.weather canvas {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.weather .temperature {
+  color: #fff;
+  font-weight: bold;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 63px;
+}
+
+.weather .unit {
+  position: relative;
+  top: -34px;
+  margin-left: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+
+.App footer {
+  font-size: 11px;
+  text-align: center;
   margin: 10px 0;
+  margin-top: 20px;
 }
