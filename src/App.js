@@ -114,7 +114,7 @@ export default function App(props) {
           </a>{" "}
           and{" "}
           <a
-            href="https://clinquant-monstera-404a7f.netlify.app/"
+            href="https://weather-app-current-weather.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
